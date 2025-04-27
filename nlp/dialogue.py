@@ -1,6 +1,8 @@
 import random
 from colorama import Fore, Back, Style
 from game.characters import CHARACTERS
+from game.roles import Role
+
 
 class DialogueGenerator:
     def __init__(self):
